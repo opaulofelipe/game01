@@ -1,0 +1,62 @@
+{
+  "car": {
+    "id": "car",
+    "scene": "MemoryScene",
+    "trigger": "foto",
+    "completedFlag": "photoSeen",
+    "returnScene": "RoomScene",
+    "returnData": {
+      "returnFromMemory": true
+    }
+  },
+  "dinner": {
+    "id": "dinner",
+    "scene": "DinnerMemoryScene",
+    "trigger": "prato",
+    "completedFlag": "dinnerMemorySeen",
+    "returnScene": "KitchenScene",
+    "returnData": {
+      "returnFromDinner": true
+    }
+  },
+  "workshop": {
+    "id": "workshop",
+    "scene": "WorkshopMemoryScene",
+    "trigger": "luminaria",
+    "completedFlag": "workshopMemorySeen",
+    "returnScene": "GarageScene",
+    "returnData": {
+      "returnFromWorkshop": true
+    }
+  },
+  "argument": {
+    "id": "argument",
+    "scene": "ArgumentMemoryScene",
+    "trigger": "gaveta",
+    "completedFlag": "argumentMemorySeen",
+    "returnScene": "BedroomScene",
+    "returnData": {
+      "returnFromArgument": true
+    }
+  },
+  "drawing": {
+    "id": "drawing",
+    "scene": "DrawingMemoryScene",
+    "trigger": "caixa_daniel",
+    "completedFlag": "drawingMemorySeen",
+    "returnScene": "DanielRoomScene",
+    "returnData": {
+      "returnFromDrawing": true
+    }
+  },
+  "reinterpretation": {
+    "id": "reinterpretation",
+    "scene": "ReinterpretationScene",
+    "trigger": "celular_quintal",
+    "completedFlag": "reinterpretationSeen",
+    "returnScene": "YardScene",
+    "returnData": {
+      "returnFromReinterpretation": true
+    }
+  }
+}
