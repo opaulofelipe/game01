@@ -1,0 +1,118 @@
+{
+  "living_room": {
+    "scene": "RoomScene",
+    "name": "Sala",
+    "exits": {
+      "kitchen": {
+        "scene": "KitchenScene",
+        "setFlags": [
+          "kitchenVisited"
+        ],
+        "stopRadio": true,
+        "data": {
+          "fromRoom": true
+        }
+      },
+      "workshop": {
+        "scene": "GarageScene",
+        "setFlags": [
+          "garageVisited"
+        ],
+        "stopRadio": true,
+        "data": {
+          "fromRoom": true
+        }
+      },
+      "antonio_bedroom": {
+        "scene": "BedroomScene",
+        "setFlags": [
+          "bedroomVisited"
+        ],
+        "stopRadio": true,
+        "data": {
+          "fromRoom": true
+        }
+      },
+      "daniel_bedroom": {
+        "scene": "DanielRoomScene",
+        "setFlags": [
+          "danielRoomVisited"
+        ],
+        "stopRadio": true,
+        "data": {
+          "fromRoom": true
+        }
+      }
+    }
+  },
+  "kitchen": {
+    "scene": "KitchenScene",
+    "name": "Cozinha",
+    "exits": {
+      "living_room": {
+        "scene": "RoomScene",
+        "data": {
+          "fromKitchen": true
+        }
+      },
+      "backyard": {
+        "scene": "YardScene",
+        "setFlags": [
+          "backyardVisited"
+        ],
+        "data": {
+          "fromKitchen": true
+        }
+      }
+    }
+  },
+  "workshop": {
+    "scene": "GarageScene",
+    "name": "Oficina",
+    "exits": {
+      "living_room": {
+        "scene": "RoomScene",
+        "data": {
+          "fromGarage": true
+        }
+      }
+    }
+  },
+  "antonio_bedroom": {
+    "scene": "BedroomScene",
+    "name": "Quarto de Antônio",
+    "exits": {
+      "living_room": {
+        "scene": "RoomScene",
+        "data": {
+          "fromBedroom": true
+        }
+      }
+    }
+  },
+  "daniel_bedroom": {
+    "scene": "DanielRoomScene",
+    "name": "Antigo quarto de Daniel",
+    "exits": {
+      "living_room": {
+        "scene": "RoomScene",
+        "data": {
+          "fromDanielRoom": true
+        }
+      }
+    }
+  },
+  "backyard": {
+    "scene": "YardScene",
+    "name": "Quintal",
+    "exits": {
+      "kitchen": {
+        "scene": "KitchenScene",
+        "data": {
+          "fromYard": true,
+          "returnFromYard": true
+        }
+      }
+    }
+  }
+}
