@@ -1,0 +1,874 @@
+{
+  "radio": {
+    "id": "radio",
+    "room": "living_room",
+    "name": "Rádio",
+    "label": "rádio",
+    "position": {
+      "x": 820,
+      "y": 145
+    },
+    "type": "special"
+  },
+  "foto": {
+    "id": "foto",
+    "room": "living_room",
+    "name": "Fotografia",
+    "label": "fotografia",
+    "position": {
+      "x": 200,
+      "y": 102
+    },
+    "type": "memory_trigger"
+  },
+  "caixa": {
+    "id": "caixa",
+    "room": "living_room",
+    "name": "Caixa",
+    "label": "caixa",
+    "position": {
+      "x": 820,
+      "y": 424
+    },
+    "type": "sortable"
+  },
+  "jornal": {
+    "id": "jornal",
+    "room": "living_room",
+    "name": "Jornal",
+    "label": "jornal",
+    "position": {
+      "x": 310,
+      "y": 190
+    },
+    "type": "inspect",
+    "dialogue": "living_room_newspaper"
+  },
+  "oculos": {
+    "id": "oculos",
+    "room": "living_room",
+    "name": "Óculos",
+    "label": "óculos",
+    "position": {
+      "x": 372,
+      "y": 188
+    },
+    "type": "inspect",
+    "dialogue": "living_room_glasses"
+  },
+  "controle": {
+    "id": "controle",
+    "room": "living_room",
+    "name": "Controle remoto",
+    "label": "controle remoto",
+    "position": {
+      "x": 468,
+      "y": 365
+    },
+    "type": "inspect",
+    "dialogue": "living_room_remote"
+  },
+  "cartas": {
+    "id": "cartas",
+    "room": "living_room",
+    "name": "Correspondências",
+    "label": "correspondências",
+    "position": {
+      "x": 100,
+      "y": 423
+    },
+    "type": "inspect",
+    "dialogue": "living_room_mail"
+  },
+  "casaco": {
+    "id": "casaco",
+    "room": "living_room",
+    "name": "Casaco",
+    "label": "casaco",
+    "position": {
+      "x": 92,
+      "y": 278
+    },
+    "type": "inspect",
+    "dialogue": "living_room_coat"
+  },
+  "planta": {
+    "id": "planta",
+    "room": "living_room",
+    "name": "Planta",
+    "label": "planta",
+    "position": {
+      "x": 866,
+      "y": 76
+    },
+    "type": "inspect",
+    "dialogue": "living_room_plant"
+  },
+  "livro": {
+    "id": "livro",
+    "room": "living_room",
+    "name": "Livro",
+    "label": "livro",
+    "position": {
+      "x": 232,
+      "y": 133
+    },
+    "type": "inspect",
+    "dialogue": "living_room_book"
+  },
+  "cozinha": {
+    "id": "cozinha",
+    "room": "living_room",
+    "name": "Cozinha",
+    "label": "ir para a cozinha",
+    "position": {
+      "x": 895,
+      "y": 294
+    },
+    "type": "exit"
+  },
+  "oficina": {
+    "id": "oficina",
+    "room": "living_room",
+    "name": "Oficina",
+    "label": "ir para a oficina",
+    "position": {
+      "x": 58,
+      "y": 401
+    },
+    "type": "exit"
+  },
+  "quarto": {
+    "id": "quarto",
+    "room": "living_room",
+    "name": "Quarto de Antônio",
+    "label": "ir para o quarto",
+    "position": {
+      "x": 700,
+      "y": 78
+    },
+    "type": "exit"
+  },
+  "quarto_daniel": {
+    "id": "quarto_daniel",
+    "room": "living_room",
+    "name": "Antigo quarto de Daniel",
+    "label": "ir para seu antigo quarto",
+    "position": {
+      "x": 320,
+      "y": 78
+    },
+    "type": "exit"
+  },
+  "porta_final": {
+    "id": "porta_final",
+    "room": "living_room",
+    "name": "Porta de entrada",
+    "label": "porta de entrada",
+    "position": {
+      "x": 480,
+      "y": 472
+    },
+    "type": "special"
+  },
+  "sala": {
+    "id": "sala",
+    "room": "kitchen",
+    "name": "Sala",
+    "label": "voltar para a sala",
+    "position": {
+      "x": 72,
+      "y": 294
+    },
+    "type": "exit"
+  },
+  "cafe": {
+    "id": "cafe",
+    "room": "kitchen",
+    "name": "Cafeteira",
+    "label": "cafeteira",
+    "position": {
+      "x": 320,
+      "y": 105
+    },
+    "type": "special"
+  },
+  "prato": {
+    "id": "prato",
+    "room": "kitchen",
+    "name": "Prato coberto",
+    "label": "prato coberto",
+    "position": {
+      "x": 492,
+      "y": 342
+    },
+    "type": "memory_trigger"
+  },
+  "geladeira": {
+    "id": "geladeira",
+    "room": "kitchen",
+    "name": "Geladeira",
+    "label": "geladeira",
+    "position": {
+      "x": 690,
+      "y": 245
+    },
+    "type": "inspect",
+    "dialogue": "kitchen_fridge"
+  },
+  "lista": {
+    "id": "lista",
+    "room": "kitchen",
+    "name": "Lista de compras",
+    "label": "lista de compras",
+    "position": {
+      "x": 690,
+      "y": 310
+    },
+    "type": "inspect",
+    "dialogue": "kitchen_list",
+    "saveId": "lista_compras"
+  },
+  "pote": {
+    "id": "pote",
+    "room": "kitchen",
+    "name": "Pote reaproveitado",
+    "label": "pote reaproveitado",
+    "position": {
+      "x": 632,
+      "y": 103
+    },
+    "type": "inspect",
+    "dialogue": "kitchen_container"
+  },
+  "pia": {
+    "id": "pia",
+    "room": "kitchen",
+    "name": "Pia",
+    "label": "pia",
+    "position": {
+      "x": 458,
+      "y": 92
+    },
+    "type": "inspect",
+    "dialogue": "kitchen_sink"
+  },
+  "quintal": {
+    "id": "quintal",
+    "room": "kitchen",
+    "name": "Quintal",
+    "label": "ir para o quintal",
+    "position": {
+      "x": 840,
+      "y": 458
+    },
+    "type": "exit"
+  },
+  "sala_from_garage": {
+    "id": "sala_from_garage",
+    "room": "workshop",
+    "name": "Sala",
+    "label": "voltar para a sala",
+    "position": {
+      "x": 895,
+      "y": 389
+    },
+    "type": "exit"
+  },
+  "luminaria": {
+    "id": "luminaria",
+    "room": "workshop",
+    "name": "Luminária",
+    "label": "luminária quebrada",
+    "position": {
+      "x": 545,
+      "y": 128
+    },
+    "type": "special"
+  },
+  "ferramentas": {
+    "id": "ferramentas",
+    "room": "workshop",
+    "name": "Ferramentas",
+    "label": "painel de ferramentas",
+    "position": {
+      "x": 145,
+      "y": 145
+    },
+    "type": "inspect",
+    "dialogue": "workshop_tools"
+  },
+  "cabos": {
+    "id": "cabos",
+    "room": "workshop",
+    "name": "Cabos",
+    "label": "caixa de cabos",
+    "position": {
+      "x": 145,
+      "y": 405
+    },
+    "type": "inspect",
+    "dialogue": "workshop_cables"
+  },
+  "parafusos": {
+    "id": "parafusos",
+    "room": "workshop",
+    "name": "Parafusos",
+    "label": "potes de parafusos",
+    "position": {
+      "x": 690,
+      "y": 110
+    },
+    "type": "inspect",
+    "dialogue": "workshop_screws"
+  },
+  "peca": {
+    "id": "peca",
+    "room": "workshop",
+    "name": "Peça desmontada",
+    "label": "peça desmontada",
+    "position": {
+      "x": 510,
+      "y": 360
+    },
+    "type": "inspect",
+    "dialogue": "workshop_part",
+    "saveId": "peca_desmontada"
+  },
+  "projeto": {
+    "id": "projeto",
+    "room": "workshop",
+    "name": "Projeto inacabado",
+    "label": "projeto inacabado",
+    "position": {
+      "x": 700,
+      "y": 365
+    },
+    "type": "inspect",
+    "dialogue": "workshop_project"
+  },
+  "sala_from_bedroom": {
+    "id": "sala_from_bedroom",
+    "room": "antonio_bedroom",
+    "name": "Sala",
+    "label": "voltar para a sala",
+    "position": {
+      "x": 480,
+      "y": 472
+    },
+    "type": "exit"
+  },
+  "foto_pai_jovem": {
+    "id": "foto_pai_jovem",
+    "room": "antonio_bedroom",
+    "name": "Fotografia antiga",
+    "label": "fotografia antiga",
+    "position": {
+      "x": 661,
+      "y": 330
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_young_photo"
+  },
+  "lista_quarto": {
+    "id": "lista_quarto",
+    "room": "antonio_bedroom",
+    "name": "Lista de tarefas",
+    "label": "lista de tarefas",
+    "position": {
+      "x": 146,
+      "y": 357
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_todo"
+  },
+  "contas_quarto": {
+    "id": "contas_quarto",
+    "room": "antonio_bedroom",
+    "name": "Documentos",
+    "label": "documentos",
+    "position": {
+      "x": 785,
+      "y": 337
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_finances"
+  },
+  "carta_antiga": {
+    "id": "carta_antiga",
+    "room": "antonio_bedroom",
+    "name": "Carta antiga",
+    "label": "carta antiga",
+    "position": {
+      "x": 216,
+      "y": 352
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_letter"
+  },
+  "relogio": {
+    "id": "relogio",
+    "room": "antonio_bedroom",
+    "name": "Relógio",
+    "label": "relógio",
+    "position": {
+      "x": 424,
+      "y": 95
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_clock",
+    "saveId": "relogio_quarto"
+  },
+  "guarda_roupa": {
+    "id": "guarda_roupa",
+    "room": "antonio_bedroom",
+    "name": "Guarda-roupa",
+    "label": "guarda-roupa",
+    "position": {
+      "x": 780,
+      "y": 180
+    },
+    "type": "inspect",
+    "dialogue": "bedroom_wardrobe"
+  },
+  "gaveta": {
+    "id": "gaveta",
+    "room": "antonio_bedroom",
+    "name": "Gaveta",
+    "label": "gaveta",
+    "position": {
+      "x": 710,
+      "y": 395
+    },
+    "type": "special",
+    "saveId": "gaveta_quarto"
+  },
+  "sala_from_daniel": {
+    "id": "sala_from_daniel",
+    "room": "daniel_bedroom",
+    "name": "Sala",
+    "label": "voltar para a sala",
+    "position": {
+      "x": 480,
+      "y": 472
+    },
+    "type": "exit"
+  },
+  "poster_daniel": {
+    "id": "poster_daniel",
+    "room": "daniel_bedroom",
+    "name": "Pôster",
+    "label": "pôster",
+    "position": {
+      "x": 134,
+      "y": 68
+    },
+    "type": "inspect",
+    "dialogue": "daniel_room_poster"
+  },
+  "videogame_daniel": {
+    "id": "videogame_daniel",
+    "room": "daniel_bedroom",
+    "name": "Videogame antigo",
+    "label": "videogame antigo",
+    "position": {
+      "x": 155,
+      "y": 338
+    },
+    "type": "inspect",
+    "dialogue": "daniel_room_game"
+  },
+  "cadernos_daniel": {
+    "id": "cadernos_daniel",
+    "room": "daniel_bedroom",
+    "name": "Cadernos",
+    "label": "cadernos",
+    "position": {
+      "x": 245,
+      "y": 336
+    },
+    "type": "inspect",
+    "dialogue": "daniel_room_notebooks"
+  },
+  "mochila_daniel": {
+    "id": "mochila_daniel",
+    "room": "daniel_bedroom",
+    "name": "Mochila",
+    "label": "mochila",
+    "position": {
+      "x": 524,
+      "y": 214
+    },
+    "type": "inspect",
+    "dialogue": "daniel_room_backpack"
+  },
+  "guarda_daniel": {
+    "id": "guarda_daniel",
+    "room": "daniel_bedroom",
+    "name": "Guarda-roupa",
+    "label": "guarda-roupa",
+    "position": {
+      "x": 786,
+      "y": 172
+    },
+    "type": "inspect",
+    "dialogue": "daniel_room_wardrobe"
+  },
+  "caixa_daniel": {
+    "id": "caixa_daniel",
+    "room": "daniel_bedroom",
+    "name": "Caixa Daniel",
+    "label": "caixa com seu nome",
+    "position": {
+      "x": 754,
+      "y": 320
+    },
+    "type": "memory_trigger"
+  },
+  "cozinha_from_yard": {
+    "id": "cozinha_from_yard",
+    "room": "backyard",
+    "name": "Cozinha",
+    "label": "voltar para a cozinha",
+    "position": {
+      "x": 480,
+      "y": 110
+    },
+    "type": "exit"
+  },
+  "arvore": {
+    "id": "arvore",
+    "room": "backyard",
+    "name": "Árvore",
+    "label": "regar a árvore",
+    "position": {
+      "x": 480,
+      "y": 405
+    },
+    "type": "special",
+    "saveId": "arvore_quintal"
+  },
+  "celular_quintal": {
+    "id": "celular_quintal",
+    "room": "backyard",
+    "name": "Celular",
+    "label": "celular",
+    "position": {
+      "x": 730,
+      "y": 295
+    },
+    "type": "memory_trigger"
+  },
+  "banco_quintal": {
+    "id": "banco_quintal",
+    "room": "backyard",
+    "name": "Banco",
+    "label": "banco",
+    "position": {
+      "x": 690,
+      "y": 350
+    },
+    "type": "inspect",
+    "dialogue": "backyard_bench"
+  },
+  "varal": {
+    "id": "varal",
+    "room": "backyard",
+    "name": "Varal",
+    "label": "varal",
+    "position": {
+      "x": 205,
+      "y": 190
+    },
+    "type": "inspect",
+    "dialogue": "backyard_clothesline",
+    "saveId": "varal_quintal"
+  },
+  "cadeira_quintal": {
+    "id": "cadeira_quintal",
+    "room": "backyard",
+    "name": "Cadeira",
+    "label": "cadeira",
+    "position": {
+      "x": 215,
+      "y": 400
+    },
+    "type": "inspect",
+    "dialogue": "backyard_chair"
+  },
+  "pilhas_usadas": {
+    "id": "pilhas_usadas",
+    "room": "living_room",
+    "name": "Pilhas usadas",
+    "label": "pilhas",
+    "position": {
+      "x": 560,
+      "y": 175
+    },
+    "type": "inspect",
+    "dialogue": "opt_batteries",
+    "optional": true
+  },
+  "agenda_telefone": {
+    "id": "agenda_telefone",
+    "room": "living_room",
+    "name": "Agenda telefônica",
+    "label": "agenda",
+    "position": {
+      "x": 270,
+      "y": 120
+    },
+    "type": "inspect",
+    "dialogue": "opt_phonebook",
+    "optional": true
+  },
+  "chave_sem_nome": {
+    "id": "chave_sem_nome",
+    "room": "living_room",
+    "name": "Chave sem identificação",
+    "label": "chave",
+    "position": {
+      "x": 540,
+      "y": 392
+    },
+    "type": "sortable",
+    "dialogue": "opt_key",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "discard",
+      "leave"
+    ]
+  },
+  "copo_requeijao": {
+    "id": "copo_requeijao",
+    "room": "kitchen",
+    "name": "Copo de requeijão",
+    "label": "copo",
+    "position": {
+      "x": 600,
+      "y": 355
+    },
+    "type": "inspect",
+    "dialogue": "opt_glass",
+    "optional": true
+  },
+  "caneca_lascada": {
+    "id": "caneca_lascada",
+    "room": "kitchen",
+    "name": "Caneca lascada",
+    "label": "caneca lascada",
+    "position": {
+      "x": 690,
+      "y": 150
+    },
+    "type": "sortable",
+    "dialogue": "opt_chipped_mug",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "discard",
+      "leave"
+    ]
+  },
+  "sacola_sacolas": {
+    "id": "sacola_sacolas",
+    "room": "kitchen",
+    "name": "Sacola de sacolas",
+    "label": "sacolas",
+    "position": {
+      "x": 160,
+      "y": 410
+    },
+    "type": "inspect",
+    "dialogue": "opt_bags",
+    "optional": true
+  },
+  "lapis_curto": {
+    "id": "lapis_curto",
+    "room": "workshop",
+    "name": "Lápis minúsculo",
+    "label": "lápis",
+    "position": {
+      "x": 520,
+      "y": 170
+    },
+    "type": "inspect",
+    "dialogue": "opt_pencil",
+    "optional": true
+  },
+  "caixa_uteis": {
+    "id": "caixa_uteis",
+    "room": "workshop",
+    "name": "Caixa “coisas úteis”",
+    "label": "caixa",
+    "position": {
+      "x": 700,
+      "y": 355
+    },
+    "type": "sortable",
+    "dialogue": "opt_useful_box",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "donate",
+      "discard",
+      "leave"
+    ]
+  },
+  "luvas_trabalho": {
+    "id": "luvas_trabalho",
+    "room": "workshop",
+    "name": "Luvas de trabalho",
+    "label": "luvas",
+    "position": {
+      "x": 350,
+      "y": 395
+    },
+    "type": "sortable",
+    "dialogue": "opt_gloves",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "donate",
+      "leave"
+    ]
+  },
+  "camisa_boa": {
+    "id": "camisa_boa",
+    "room": "antonio_bedroom",
+    "name": "Camisa boa",
+    "label": "camisa",
+    "position": {
+      "x": 665,
+      "y": 225
+    },
+    "type": "sortable",
+    "dialogue": "opt_good_shirt",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "donate",
+      "leave"
+    ]
+  },
+  "perfume_antigo": {
+    "id": "perfume_antigo",
+    "room": "antonio_bedroom",
+    "name": "Perfume antigo",
+    "label": "perfume",
+    "position": {
+      "x": 425,
+      "y": 160
+    },
+    "type": "sortable",
+    "dialogue": "opt_perfume",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "discard",
+      "leave"
+    ]
+  },
+  "carteira_velha": {
+    "id": "carteira_velha",
+    "room": "antonio_bedroom",
+    "name": "Carteira velha",
+    "label": "carteira",
+    "position": {
+      "x": 540,
+      "y": 355
+    },
+    "type": "inspect",
+    "dialogue": "opt_wallet",
+    "optional": true
+  },
+  "prova_escolar": {
+    "id": "prova_escolar",
+    "room": "daniel_bedroom",
+    "name": "Prova escolar",
+    "label": "prova",
+    "position": {
+      "x": 515,
+      "y": 180
+    },
+    "type": "inspect",
+    "dialogue": "opt_test",
+    "optional": true
+  },
+  "trofeu_barato": {
+    "id": "trofeu_barato",
+    "room": "daniel_bedroom",
+    "name": "Troféu de 3º lugar",
+    "label": "troféu",
+    "position": {
+      "x": 650,
+      "y": 330
+    },
+    "type": "sortable",
+    "dialogue": "opt_trophy",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "donate",
+      "leave"
+    ]
+  },
+  "marca_parede": {
+    "id": "marca_parede",
+    "room": "daniel_bedroom",
+    "name": "Marcas de altura",
+    "label": "marcas na parede",
+    "position": {
+      "x": 135,
+      "y": 160
+    },
+    "type": "inspect",
+    "dialogue": "opt_height",
+    "optional": true
+  },
+  "mangueira_remendada": {
+    "id": "mangueira_remendada",
+    "room": "backyard",
+    "name": "Mangueira remendada",
+    "label": "mangueira",
+    "position": {
+      "x": 705,
+      "y": 365
+    },
+    "type": "inspect",
+    "dialogue": "opt_hose",
+    "optional": true
+  },
+  "ferramenta_enferrujada": {
+    "id": "ferramenta_enferrujada",
+    "room": "backyard",
+    "name": "Ferramenta enferrujada",
+    "label": "ferramenta",
+    "position": {
+      "x": 330,
+      "y": 410
+    },
+    "type": "sortable",
+    "dialogue": "opt_rust_tool",
+    "optional": true,
+    "destinations": [
+      "keep",
+      "discard",
+      "leave"
+    ]
+  },
+  "vaso_vazio": {
+    "id": "vaso_vazio",
+    "room": "backyard",
+    "name": "Vaso vazio",
+    "label": "vaso",
+    "position": {
+      "x": 770,
+      "y": 170
+    },
+    "type": "inspect",
+    "dialogue": "opt_empty_pot",
+    "optional": true
+  }
+}
