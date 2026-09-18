@@ -1,0 +1,781 @@
+{
+  "living_room_newspaper": {
+    "kicker": "JORNAL",
+    "pages": [
+      "Três semanas atrás.",
+      "Circulou uma furadeira.",
+      "Claro que circulou."
+    ]
+  },
+  "living_room_glasses": {
+    "kicker": "ÓCULOS",
+    "pages": [
+      "Tortos.",
+      "Sempre foram."
+    ]
+  },
+  "living_room_remote": {
+    "kicker": "CONTROLE REMOTO",
+    "pages": [
+      "Fita isolante.",
+      "Funcionava.",
+      "Pra ele era o suficiente."
+    ]
+  },
+  "living_room_mail": {
+    "kicker": "CORRESPONDÊNCIAS",
+    "pages": [
+      "Conta de luz. Propaganda. Um aviso do banco.",
+      "O mundo continuou mandando correspondência."
+    ]
+  },
+  "living_room_coat": {
+    "kicker": "CASACO",
+    "pages": [
+      "Duas moedas.",
+      "Um recibo.",
+      "Nada importante."
+    ]
+  },
+  "living_room_plant": {
+    "kicker": "PLANTA",
+    "pages": [
+      "A terra está seca.",
+      "Não parece morta. Ainda."
+    ]
+  },
+  "living_room_book": {
+    "kicker": "LIVRO",
+    "pages": [
+      "Um livro de manutenção elétrica cheio de anotações nas margens.",
+      "Algumas páginas têm manchas de café."
+    ]
+  },
+  "kitchen_fridge": {
+    "kicker": "GELADEIRA",
+    "pages": [
+      "Dois ovos. Mostarda. Meio limão ressecado.",
+      "Na porta, um ímã segura a lista de compras da última semana."
+    ]
+  },
+  "kitchen_list": {
+    "kicker": "LISTA DE COMPRAS",
+    "pages": [
+      "Arroz. Café. Sabão. Tomate.",
+      "ligar pro Daniel"
+    ]
+  },
+  "kitchen_container": {
+    "kicker": "POTE",
+    "pages": [
+      "Sorvete.",
+      "Feijão."
+    ]
+  },
+  "kitchen_sink": {
+    "kicker": "PIA",
+    "pages": [
+      "Há uma colher no escorredor.",
+      "Você pensa em lavá-la. Depois percebe que não sabe por quê."
+    ]
+  },
+  "workshop_tools": {
+    "kicker": "FERRAMENTAS",
+    "pages": [
+      "Tudo tem um lugar marcado na parede.",
+      "Você nunca entendeu como ele conseguia reclamar quando uma chave voltava dois centímetros para o lado."
+    ]
+  },
+  "workshop_cables": {
+    "kicker": "CABOS",
+    "pages": [
+      "Finalmente.",
+      "A lendária caixa de cabos.",
+      "Nenhum serve pra nada.",
+      "Ele sabia."
+    ]
+  },
+  "workshop_screws": {
+    "kicker": "PARAFUSOS",
+    "pages": [
+      "Cinco potes diferentes. Todos com etiquetas escritas à mão.",
+      "Algumas letras estão quase apagadas de tanto uso."
+    ]
+  },
+  "workshop_part": {
+    "kicker": "PEÇA DESMONTADA",
+    "pages": [
+      "Você não sabe o que isso deveria ser quando estivesse inteiro.",
+      "Provavelmente ele saberia explicar. Demoraria vinte minutos."
+    ]
+  },
+  "workshop_project": {
+    "kicker": "PROJETO",
+    "pages": [
+      "Duas tábuas cortadas, quatro marcações a lápis e nenhuma instrução.",
+      "Não há como saber se ele começou ontem ou cinco anos atrás."
+    ]
+  },
+  "bedroom_young_photo": {
+    "kicker": "FOTOGRAFIA",
+    "pages": [
+      "Você devia ter...",
+      "Vinte e poucos.",
+      "Estranho."
+    ]
+  },
+  "bedroom_todo": {
+    "kicker": "LISTA",
+    "pages": [
+      "Arrumar torneira.",
+      "Levar carro para revisão.",
+      "Comprar lâmpada da cozinha.",
+      "Ligar para Daniel."
+    ]
+  },
+  "bedroom_finances": {
+    "kicker": "DOCUMENTOS",
+    "pages": [
+      "Eu não sabia disso."
+    ]
+  },
+  "bedroom_letter": {
+    "kicker": "CARTA",
+    "pages": [
+      "A letra é da sua mãe.",
+      "A maior parte fala de coisas práticas: horários, compras, compromissos.",
+      "No fim, uma frase curta: 'Não esquece de descansar também.'"
+    ]
+  },
+  "bedroom_clock": {
+    "kicker": "RELÓGIO",
+    "pages": [
+      "O relógio está quatro minutos adiantado.",
+      "Ele dizia que assim nunca chegava atrasado. Nunca corrigiu quando você explicou que sabia disso."
+    ]
+  },
+  "bedroom_wardrobe": {
+    "kicker": "GUARDA-ROUPA",
+    "pages": [
+      "Camisas separadas por tipo, não por cor.",
+      "No fundo, ainda está o terno que ele usava em casamentos e enterros."
+    ]
+  },
+  "daniel_room_poster": {
+    "kicker": "PÔSTER",
+    "pages": [
+      "Eu achava isso incrível.",
+      "Ainda não é ruim."
+    ]
+  },
+  "daniel_room_game": {
+    "kicker": "VIDEOGAME",
+    "pages": [
+      "Ainda funciona?",
+      "Provavelmente não."
+    ]
+  },
+  "daniel_room_notebooks": {
+    "kicker": "CADERNOS",
+    "pages": [
+      "História, matemática, português.",
+      "Você reconhece sua letra antes mesmo de reconhecer o conteúdo."
+    ]
+  },
+  "daniel_room_backpack": {
+    "kicker": "MOCHILA",
+    "pages": [
+      "Eu odiava essa mochila.",
+      "Ainda odeio."
+    ]
+  },
+  "daniel_room_wardrobe": {
+    "kicker": "GUARDA-ROUPA",
+    "pages": [
+      "Quase vazio.",
+      "Duas camisas suas continuam penduradas como se você pudesse precisar delas no fim de semana."
+    ]
+  },
+  "backyard_bench": {
+    "kicker": "BANCO",
+    "pages": [
+      "A madeira está áspera de sol e chuva.",
+      "Ele dizia que ia lixar e envernizar no próximo fim de semana."
+    ]
+  },
+  "backyard_clothesline": {
+    "kicker": "VARAL",
+    "pages": [
+      "Três panos continuam presos pelos pregadores.",
+      "Você tira um por um e dobra sem pensar."
+    ]
+  },
+  "backyard_chair": {
+    "kicker": "CADEIRA",
+    "pages": [
+      "Uma cadeira que já foi da cozinha.",
+      "Aqui fora ela ganhou mais alguns anos de vida."
+    ]
+  },
+  "argumentmemory_voce_veio_contar_uma_coisa_que_ja_e_01": {
+    "kicker": "",
+    "pages": [
+      "Você veio contar uma coisa que já estava quase decidida."
+    ]
+  },
+  "argumentmemory_daniel_02": {
+    "kicker": "DANIEL",
+    "pages": [
+      "Acho que vou ficar por lá.",
+      "ANTÔNIO: Tá.",
+      "Definitivamente.",
+      "ANTÔNIO: Entendi.",
+      "Você já fez sua vida lá mesmo."
+    ]
+  },
+  "argumentmemory_depois_disso_voces_continuaram_se_f_03": {
+    "kicker": "",
+    "pages": [
+      "Depois vocês continuaram se falando.",
+      "Contas. Trabalho. O carro.",
+      "Aquela conversa ficou para depois."
+    ]
+  },
+  "bedroom_voce_quase_nunca_entrava_aqui_sem_b_01": {
+    "kicker": "",
+    "pages": [
+      "Você quase nunca entrava aqui sem bater.",
+      "Agora não há ninguém para responder."
+    ]
+  },
+  "bedroom_a_lembranca_termina_no_mesmo_lugar__02": {
+    "kicker": "",
+    "pages": [
+      "Foi assim?",
+      "Foi."
+    ]
+  },
+  "bedroom_gaveta_03": {
+    "kicker": "GAVETA",
+    "pages": [
+      "Recibos, uma bateria externa antiga e um papel com o endereço do seu apartamento.",
+      "Você não lembra de ter dado esse endereço a ele por escrito."
+    ]
+  },
+  "bedroom_gaveta_04": {
+    "kicker": "GAVETA",
+    "pages": [
+      "Recibos. Pilhas. Um carregador que não serve em nenhum telefone atual.",
+      "No fundo, dobrado duas vezes, está o endereço do seu apartamento na outra cidade.",
+      "Você lembra do dia em que contou que talvez ficasse lá de vez."
+    ]
+  },
+  "closing_a_casa_esta_mais_vazia_do_que_quand_01": {
+    "kicker": "",
+    "pages": [
+      "A casa está mais vazia do que quando você entrou.",
+      "Agora cada interruptor parece uma despedida pequena demais para ter esse peso."
+    ]
+  },
+  "closing_interruptor_02": {
+    "kicker": "INTERRUPTOR",
+    "pages": [
+      "A luz já está apagada."
+    ]
+  },
+  "closing_o_silencio_muda_quando_todas_as_luz_03": {
+    "kicker": "",
+    "pages": [
+      "O silêncio muda quando todas as luzes se apagam.",
+      "Ainda falta decidir uma coisa."
+    ]
+  },
+  "closing_caixa_04": {
+    "kicker": "CAIXA",
+    "pages": [
+      "Primeiro, termine de fechar os cômodos."
+    ]
+  },
+  "closing_porta_05": {
+    "kicker": "PORTA",
+    "pages": [
+      "Ainda há luzes acesas."
+    ]
+  },
+  "closing_porta_06": {
+    "kicker": "PORTA",
+    "pages": [
+      "A última caixa continua aberta perto da porta."
+    ]
+  },
+  "danielroom_seu_quarto_embora_ja_nao_seja_exata_01": {
+    "kicker": "",
+    "pages": [
+      "Seu quarto, embora já não seja exatamente seu.",
+      "Metade das coisas sumiu. A outra metade parece ter esperado por você."
+    ]
+  },
+  "danielroom_voce_continua_segurando_o_desenho_02": {
+    "kicker": "",
+    "pages": [
+      "Você continua segurando o desenho.",
+      "O papel amarelou. A dobra no canto continua no mesmo lugar."
+    ]
+  },
+  "danielroom_daniel_03": {
+    "kicker": "DANIEL",
+    "pages": [
+      "Seu nome está escrito na tampa.",
+      "Um desenho. Um boletim. Um cartão. Uma medalha. Ingressos. Uma foto ruim.",
+      "Você guardou isso?",
+      "Por quê?"
+    ]
+  },
+  "danielroom_desenho_04": {
+    "kicker": "DESENHO",
+    "pages": [
+      "Uma casa, duas pessoas e um sol grande demais."
+    ]
+  },
+  "danielroom_desenho_05": {
+    "kicker": "DESENHO",
+    "pages": [
+      "Uma casa. Duas pessoas. Um sol enorme.",
+      "Você lembra da mesa."
+    ]
+  },
+  "dinnermemory_voce_chega_tarde_a_casa_esta_quase__01": {
+    "kicker": "",
+    "pages": [
+      "A casa está quase toda apagada.",
+      "Só a cozinha ficou acesa."
+    ]
+  },
+  "dinnermemory_antonio_02": {
+    "kicker": "ANTÔNIO",
+    "pages": [
+      "Chegou.",
+      "DANIEL: Cheguei.",
+      "Comeu?",
+      "DANIEL: Não.",
+      "Você não precisava esperar.",
+      "Eu não tava esperando."
+    ]
+  },
+  "drawingmemory_voce_lembra_da_mesa_antes_de_lembra_01": {
+    "kicker": "",
+    "pages": [
+      "A mesa vem primeiro. Depois o desenho."
+    ]
+  },
+  "drawingmemory_voce_segura_a_folha_pelas_duas_pont_02": {
+    "kicker": "",
+    "pages": [
+      "Você segura a folha pelas duas pontas."
+    ]
+  },
+  "drawingmemory_daniel_03": {
+    "kicker": "DANIEL",
+    "pages": [
+      "Pai.",
+      "ANTÔNIO: Oi.",
+      "Fui eu que fiz.",
+      "ANTÔNIO: Ficou bom.",
+      "Só bom?",
+      "ANTÔNIO: Ficou muito bom."
+    ]
+  },
+  "drawingmemory_voce_deixa_o_desenho_sobre_a_mesa_e_04": {
+    "kicker": "",
+    "pages": [
+      "Você deixa o desenho sobre a mesa.",
+      "DANIEL: Vou lá fora."
+    ]
+  },
+  "exterior_a_chave_ainda_prende_um_pouco_antes_01": {
+    "kicker": "",
+    "pages": [
+      "A chave ainda prende um pouco antes de girar."
+    ]
+  },
+  "garage_a_oficina_ainda_cheira_a_poeira_met_01": {
+    "kicker": "",
+    "pages": [
+      "A oficina ainda cheira a poeira, metal e óleo.",
+      "Era o único cômodo em que a bagunça dele parecia ter um método."
+    ]
+  },
+  "garage_voce_ainda_lembra_exatamente_onde_e_02": {
+    "kicker": "",
+    "pages": [
+      "Você ainda lembra exatamente onde ele mandava apoiar o polegar."
+    ]
+  },
+  "garage_luminaria_03": {
+    "kicker": "LUMINÁRIA",
+    "pages": [
+      "A luz é mais amarela do que você lembrava.",
+      "O conserto não ficou bonito. Funcionou. Para ele, isso bastaria."
+    ]
+  },
+  "garage_luminaria_04": {
+    "kicker": "LUMINÁRIA",
+    "pages": [
+      "A luminária da bancada não acende.",
+      "O cabo está inteiro, mas o plugue ficou frouxo.",
+      "Você sabe consertar isso. Acho."
+    ]
+  },
+  "garage_ferramenta_errada_05": {
+    "kicker": "FERRAMENTA ERRADA",
+    "pages": [
+      "Não.",
+      "Ele teria reclamado só de ver você chegando perto disso com essa ferramenta."
+    ]
+  },
+  "garage_voce_conecta_a_luminaria_a_tomada_06": {
+    "kicker": "",
+    "pages": [
+      "Pronto.",
+      "Seu chato."
+    ]
+  },
+  "kitchen_na_cozinha_a_sensacao_e_diferente_01": {
+    "kicker": "",
+    "pages": [
+      "Na cozinha, a sensação é diferente.",
+      "Há uma caneca no escorredor. Como se alguém ainda fosse voltar para usá-la."
+    ]
+  },
+  "kitchen_ele_perguntava_se_eu_tinha_comido_q_02": {
+    "kicker": "",
+    "pages": [
+      "Você nunca estava esperando.",
+      "Claro."
+    ]
+  },
+  "kitchen_as_caixas_estao_prontas_03": {
+    "kicker": "",
+    "pages": [
+      "As caixas estão prontas.",
+      "Agora só falta fechar a casa."
+    ]
+  },
+  "kitchen_cafe_04": {
+    "kicker": "CAFÉ",
+    "pages": [
+      "Uma caneca está quase vazia.",
+      "A outra ficou intacta do outro lado da bancada."
+    ]
+  },
+  "kitchen_voce_mede_o_po_sem_pensar_o_corpo_l_05": {
+    "kicker": "",
+    "pages": [
+      "Você mede o pó sem pensar. O corpo lembra de hábitos que a cabeça esqueceu.",
+      "Quando percebe, colocou duas canecas na bancada.",
+      "Você fica olhando para a segunda.",
+      "Depois de alguns segundos, guarda uma delas novamente."
+    ]
+  },
+  "kitchen_prato_06": {
+    "kicker": "PRATO",
+    "pages": [
+      "Você já sabe por que essa imagem incomodou tanto.",
+      "Um prato coberto esperando alguém chegar."
+    ]
+  },
+  "kitchen_prato_07": {
+    "kicker": "PRATO",
+    "pages": [
+      "Por um segundo, você vê outro prato no mesmo lugar.",
+      "Não este. Um de muitos anos atrás."
+    ]
+  },
+  "memory_o_calor_do_asfalto_o_banco_do_carro_01": {
+    "kicker": "",
+    "pages": [
+      "O calor do asfalto.",
+      "Você devia ter uns oito anos."
+    ]
+  },
+  "memory_antonio_02": {
+    "kicker": "ANTÔNIO",
+    "pages": [
+      "Vamos.",
+      "DANIEL: Aonde?",
+      "Entra primeiro.",
+      "DANIEL: Mas aonde?",
+      "Você pergunta demais."
+    ]
+  },
+  "memory_antonio_03": {
+    "kicker": "ANTÔNIO",
+    "pages": [
+      "Leva o casaco.",
+      "DANIEL: Não tá frio.",
+      "Leva.",
+      "DANIEL: Pai...",
+      "Daniel."
+    ]
+  },
+  "reinterpretation_voce_nao_sabe_o_que_ele_pensou_depo_01": {
+    "kicker": "",
+    "pages": [
+      "Na manhã seguinte, o telefone vibrou."
+    ]
+  },
+  "room_a_casa_esta_exatamente_como_ele_dei_01": {
+    "kicker": "",
+    "pages": [
+      "A chave prende antes de girar.",
+      "Lá dentro, tudo parece ter parado no meio de um dia comum."
+    ]
+  },
+  "room_radio_02": {
+    "kicker": "RÁDIO",
+    "pages": [
+      "Ainda aqui.",
+      "Ele deixava ligado até quando não estava ouvindo."
+    ]
+  },
+  "room_caixa_03": {
+    "kicker": "CAIXA",
+    "pages": [
+      "COISAS PARA SEPARAR.",
+      "Revistas antigas. Algumas têm anotações nas capas."
+    ]
+  },
+  "room_fotografia_04": {
+    "kicker": "FOTOGRAFIA",
+    "pages": [
+      "Verão de 2004.",
+      "Agora você lembra."
+    ]
+  },
+  "room_fotografia_05": {
+    "kicker": "FOTOGRAFIA",
+    "pages": [
+      "Verão de 2004.",
+      "Eu tinha esquecido dessa."
+    ]
+  },
+  "room_porta_06": {
+    "kicker": "PORTA",
+    "pages": [
+      "As caixas ainda não estão prontas.",
+      "Tem alguma coisa na casa que você ainda não consegue deixar para trás."
+    ]
+  },
+  "workshopmemory_antes_de_saber_os_nomes_das_ferrame_01": {
+    "kicker": "",
+    "pages": [
+      "Você sabia onde cada ferramenta ficava antes de saber o nome delas."
+    ]
+  },
+  "workshopmemory_antonio_02": {
+    "kicker": "ANTÔNIO",
+    "pages": [
+      "Segura aqui.",
+      "DANIEL: Aqui?",
+      "Mais pra cima.",
+      "DANIEL: Assim?",
+      "Não tanto."
+    ]
+  },
+  "workshopmemory_antonio_03": {
+    "kicker": "ANTÔNIO",
+    "pages": [
+      "DANIEL: Então segura você.",
+      "Se eu fizer, você não aprende.",
+      "DANIEL: Eu não quero aprender.",
+      "Tá bom.",
+      "Segura aqui."
+    ]
+  },
+  "yard_o_quintal_parece_maior_sem_ninguem__01": {
+    "kicker": "",
+    "pages": [
+      "O quintal parece maior sem ninguém usando a casa.",
+      "A árvore continua no mesmo lugar. Quase todo o resto mudou."
+    ]
+  },
+  "yard_na_epoca_voce_leu_aquela_mensagem_c_02": {
+    "kicker": "",
+    "pages": [
+      "Seu carro ainda tá fazendo aquele barulho?",
+      "DANIEL: Tá.",
+      "Leva no Jorge. Ele olha.",
+      "DANIEL: Vou levar.",
+      "Não esquece.",
+      "...",
+      "Eu não levei."
+    ]
+  },
+  "yard_arvore_03": {
+    "kicker": "ÁRVORE",
+    "pages": [
+      "Ainda tá aqui."
+    ]
+  },
+  "yard_a_agua_desaparece_rapido_na_terra_04": {
+    "kicker": "",
+    "pages": [
+      "Ainda tá aqui."
+    ]
+  },
+  "yard_celular_05": {
+    "kicker": "CELULAR",
+    "pages": [
+      "A conversa continua ali.",
+      "Você não precisa lê-la de novo agora."
+    ]
+  },
+  "yard_celular_06": {
+    "kicker": "CELULAR",
+    "pages": [
+      "Você abre a conversa com seu pai.",
+      "Rola algumas mensagens e fecha antes de chegar naquela semana."
+    ]
+  },
+  "yard_celular_07": {
+    "kicker": "CELULAR",
+    "pages": [
+      "Você volta até a semana da discussão.",
+      "Na manhã seguinte, há três mensagens que sempre pareceram pequenas demais."
+    ]
+  },
+  "keepsake_box_other_items": {
+    "kicker": "CAIXA",
+    "pages": [
+      "Um boletim com uma nota circulada.",
+      "Um cartão de Dia dos Pais com sua letra enorme e torta.",
+      "Uma medalha que dizia apenas PARTICIPAÇÃO.",
+      "Dois ingressos de cinema presos por um elástico ressecado.",
+      "Uma fotografia em que metade do rosto dele ficou fora do enquadramento."
+    ]
+  },
+  "opt_batteries": {
+    "kicker": "PILHAS",
+    "pages": [
+      "Novas?",
+      "Não. Talvez."
+    ]
+  },
+  "opt_phonebook": {
+    "kicker": "AGENDA",
+    "pages": [
+      "Daniel — celular novo.",
+      "Daniel — celular novo 2.",
+      "Daniel atual."
+    ]
+  },
+  "opt_key": {
+    "kicker": "CHAVE",
+    "pages": [
+      "Você não faz ideia do que ela abre."
+    ]
+  },
+  "opt_glass": {
+    "kicker": "COPO",
+    "pages": [
+      "Copo de requeijão.",
+      "Esse é quase da família."
+    ]
+  },
+  "opt_chipped_mug": {
+    "kicker": "CANECA",
+    "pages": [
+      "Lascada na borda. Ainda estava em uso."
+    ]
+  },
+  "opt_bags": {
+    "kicker": "ARMÁRIO",
+    "pages": [
+      "Uma sacola cheia de outras sacolas.",
+      "Claro."
+    ]
+  },
+  "opt_pencil": {
+    "kicker": "LÁPIS",
+    "pages": [
+      "Usado até quase desaparecer.",
+      "Você podia comprar outro."
+    ]
+  },
+  "opt_useful_box": {
+    "kicker": "COISAS ÚTEIS",
+    "pages": [
+      "Parafusos. Uma moeda. Um botão. Duas peças que você não reconhece.",
+      "Você discorda do título."
+    ]
+  },
+  "opt_gloves": {
+    "kicker": "LUVAS",
+    "pages": [
+      "Gastas principalmente na mão direita.",
+      "Essas você lembra."
+    ]
+  },
+  "opt_good_shirt": {
+    "kicker": "CAMISA",
+    "pages": [
+      "A “camisa boa”.",
+      "Ele tinha uma."
+    ]
+  },
+  "opt_perfume": {
+    "kicker": "PERFUME",
+    "pages": [
+      "O cheiro chega antes da lembrança.",
+      "..."
+    ]
+  },
+  "opt_wallet": {
+    "kicker": "CARTEIRA",
+    "pages": [
+      "Cartão vencido. Recibo antigo.",
+      "Uma foto 3×4 sua, criança."
+    ]
+  },
+  "opt_test": {
+    "kicker": "PROVA",
+    "pages": [
+      "Sete e meio.",
+      "Você lembrava de um nove."
+    ]
+  },
+  "opt_trophy": {
+    "kicker": "TROFÉU",
+    "pages": [
+      "3º lugar.",
+      "Terceiro de quatro."
+    ]
+  },
+  "opt_height": {
+    "kicker": "PAREDE",
+    "pages": [
+      "Marcas de altura a lápis.",
+      "Essa você lembrava."
+    ]
+  },
+  "opt_hose": {
+    "kicker": "MANGUEIRA",
+    "pages": [
+      "Fita isolante.",
+      "Em uma mangueira."
+    ]
+  },
+  "opt_rust_tool": {
+    "kicker": "FERRAMENTA",
+    "pages": [
+      "Ferrugem até no cabo.",
+      "Essa perdeu."
+    ]
+  },
+  "opt_empty_pot": {
+    "kicker": "VASO",
+    "pages": [
+      "Só a etiqueta antiga continua presa."
+    ]
+  }
+}
