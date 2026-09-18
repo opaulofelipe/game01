@@ -1,0 +1,300 @@
+{
+  "radio_when_on": {
+    "kicker": "RÁDIO",
+    "prompt": "A estação ainda está tocando baixo.",
+    "options": [
+      {
+        "id": "leave_on",
+        "label": "DEIXAR LIGADO"
+      },
+      {
+        "id": "turn_off",
+        "label": "DESLIGAR"
+      }
+    ]
+  },
+  "radio_initial": {
+    "kicker": "RÁDIO",
+    "prompt": "Por um instante, seu dedo fica sobre o botão.",
+    "options": [
+      {
+        "id": "turn_on",
+        "label": "LIGAR"
+      },
+      {
+        "id": "leave_off",
+        "label": "DEIXAR COMO ESTÁ"
+      }
+    ]
+  },
+  "magazines_destination": {
+    "kicker": "REVISTAS ANTIGAS",
+    "prompt": "O que fazer com elas?",
+    "options": [
+      {
+        "id": "keep",
+        "label": "GUARDAR"
+      },
+      {
+        "id": "donate",
+        "label": "DOAR"
+      },
+      {
+        "id": "discard",
+        "label": "DESCARTAR"
+      },
+      {
+        "id": "leave",
+        "label": "DEIXAR"
+      }
+    ]
+  },
+  "photo_examine": {
+    "kicker": "FOTOGRAFIA",
+    "prompt": "Examinar por mais alguns segundos?",
+    "options": [
+      {
+        "id": "remember",
+        "label": "EXAMINAR"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "tree_water": {
+    "kicker": "ÁRVORE",
+    "prompt": "A terra está seca.",
+    "options": [
+      {
+        "id": "water",
+        "label": "REGAR"
+      },
+      {
+        "id": "leave",
+        "label": "DEIXAR"
+      }
+    ]
+  },
+  "phone_read": {
+    "kicker": "CELULAR",
+    "prompt": "Continuar até aquela semana?",
+    "options": [
+      {
+        "id": "read",
+        "label": "LER"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "argumentmemory_daniel_01": {
+    "kicker": "DANIEL",
+    "prompt": "Você se lembra de querer dizer várias coisas ao mesmo tempo.",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "TANTO FAZ?"
+      },
+      {
+        "id": "option_2",
+        "label": "DEIXA PRA LÁ"
+      },
+      {
+        "id": "option_3",
+        "label": "IR EMBORA"
+      }
+    ]
+  },
+  "closing_ultima_caixa_01": {
+    "kicker": "ÚLTIMA CAIXA",
+    "prompt": "Você só quer levar uma coisa com você agora.",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "DESENHO"
+      },
+      {
+        "id": "option_2",
+        "label": "FOTOGRAFIA"
+      },
+      {
+        "id": "option_3",
+        "label": "FERRAMENTA"
+      },
+      {
+        "id": "option_4",
+        "label": "CANECA"
+      }
+    ]
+  },
+  "closing_porta_02": {
+    "kicker": "PORTA",
+    "prompt": "Fechar a casa?",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "FECHAR"
+      },
+      {
+        "id": "option_2",
+        "label": "AINDA NÃO"
+      }
+    ]
+  },
+  "danielroom_caixa_01": {
+    "kicker": "CAIXA",
+    "prompt": "As coisas continuam onde ele deixou.",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "DESENHO"
+      },
+      {
+        "id": "option_2",
+        "label": "OUTRAS COISAS"
+      },
+      {
+        "id": "option_3",
+        "label": "FECHAR"
+      }
+    ]
+  },
+  "kitchen_cafeteira_01": {
+    "kicker": "CAFETEIRA",
+    "prompt": "Fazer café?",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "FAZER CAFÉ"
+      },
+      {
+        "id": "option_2",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "room_porta_01": {
+    "kicker": "PORTA",
+    "prompt": "Está na hora de fechar a casa?",
+    "options": [
+      {
+        "id": "option_1",
+        "label": "SIM"
+      },
+      {
+        "id": "option_2",
+        "label": "AINDA NÃO"
+      }
+    ]
+  },
+  "keepsake_box_repeat": {
+    "kicker": "CAIXA",
+    "prompt": "As coisas continuam onde ele deixou.",
+    "options": [
+      {
+        "id": "drawing",
+        "label": "VER O DESENHO"
+      },
+      {
+        "id": "others",
+        "label": "VER OUTRAS COISAS"
+      },
+      {
+        "id": "close",
+        "label": "FECHAR"
+      }
+    ]
+  },
+  "drawing_memory": {
+    "kicker": "LEMBRANÇA",
+    "prompt": "Continuar lembrando?",
+    "options": [
+      {
+        "id": "remember",
+        "label": "LEMBRAR"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "argument_first_response": {
+    "kicker": "DANIEL",
+    "prompt": "A resposta volta diferente dependendo de como você lembra.",
+    "options": [
+      {
+        "id": "hurt",
+        "label": "É SÓ ISSO?"
+      },
+      {
+        "id": "direct",
+        "label": "VOCÊ NÃO LIGA?"
+      },
+      {
+        "id": "closed",
+        "label": "ESQUECE."
+      }
+    ]
+  },
+  "dinner_memory": {
+    "kicker": "LEMBRANÇA",
+    "prompt": "Deixar a memória voltar?",
+    "options": [
+      {
+        "id": "remember",
+        "label": "LEMBRAR"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "argument_memory": {
+    "kicker": "LEMBRANÇA",
+    "prompt": "Continuar lembrando?",
+    "options": [
+      {
+        "id": "remember",
+        "label": "LEMBRAR"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  },
+  "workshop_memory": {
+    "kicker": "LUMINÁRIA",
+    "prompt": "Tentar fazer sozinho?",
+    "options": [
+      {
+        "id": "try",
+        "label": "TENTAR"
+      },
+      {
+        "id": "later",
+        "label": "DEPOIS"
+      }
+    ]
+  },
+  "reinterpretation_memory": {
+    "kicker": "CONVERSA",
+    "prompt": "Ler de novo?",
+    "options": [
+      {
+        "id": "read",
+        "label": "LER"
+      },
+      {
+        "id": "later",
+        "label": "AGORA NÃO"
+      }
+    ]
+  }
+}
