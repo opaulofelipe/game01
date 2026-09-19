@@ -11,6 +11,7 @@ html, body {
   margin: 0;
   min-height: 100%;
   background: #171513;
+  overscroll-behavior: none;
 }
 
 body {
@@ -18,6 +19,11 @@ body {
   display: grid;
   place-items: center;
   padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+}
+
+button {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #app {
@@ -32,9 +38,11 @@ body {
   border-radius: 18px;
   background: #211e1b;
   box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  touch-action: none;
 }
 
-#game, #game canvas {
+#game,
+#game canvas {
   width: 100%;
   height: 100%;
   display: block;
@@ -42,8 +50,8 @@ body {
 
 #build-badge {
   position: fixed;
-  left: 14px;
-  bottom: 14px;
+  left: max(14px, env(safe-area-inset-left));
+  bottom: max(14px, env(safe-area-inset-bottom));
   z-index: 20;
   padding: 7px 10px;
   border-radius: 999px;
@@ -53,9 +61,75 @@ body {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: .06em;
+  pointer-events: none;
+}
+
+#movement-controls {
+  display: none;
+  position: absolute;
+  left: max(20px, env(safe-area-inset-left));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  width: 152px;
+  height: 152px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.move-btn {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(232,223,209,.28);
+  border-radius: 16px;
+  background: rgba(23,21,19,.68);
+  color: #e8dfd1;
+  font-size: 20px;
+  font-weight: 800;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+}
+
+.move-btn.is-pressed {
+  transform: scale(.94);
+  background: rgba(185,156,118,.75);
+  color: #171513;
+}
+
+.move-up { left: 50px; top: 0; }
+.move-left { left: 0; top: 50px; }
+.move-down { left: 50px; top: 100px; }
+.move-right { left: 100px; top: 50px; }
+
+@media (pointer: coarse) {
+  #movement-controls { display: block; }
 }
 
 @media (max-width: 700px) {
   body { padding: 0; }
   #game-shell { border-radius: 0; }
+  #build-badge { font-size: 10px; }
+}
+
+@media (orientation: portrait) and (pointer: coarse) {
+  body {
+    display: block;
+    padding-top: max(12px, env(safe-area-inset-top));
+  }
+
+  #app {
+    width: 100%;
+    margin-top: 16vh;
+  }
+
+  #game-shell {
+    aspect-ratio: 16 / 9;
+  }
+
+  #movement-controls {
+    transform: scale(.9);
+    transform-origin: left bottom;
+  }
 }
