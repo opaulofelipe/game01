@@ -4,44 +4,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#171513" />
-  <meta name="description" content="A Casa — RPG narrativo curto sobre luto, memória e despedida." />
-  <title>A Casa — Jogo narrativo</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <meta name="description" content="A Casa — reconstrução v2." />
+  <title>A Casa — reconstrução v2</title>
+  <link rel="stylesheet" href="./rebuild.css" />
 </head>
 <body>
-  <main id="page">
-    <section id="game-shell" aria-label="A Casa — jogo">
+  <main id="app">
+    <section id="game-shell" aria-label="A Casa — reconstrução v2">
       <div id="game"></div>
-
-      <div id="touch-controls" aria-label="Controles de toque">
-        <div class="dpad">
-          <button class="touch-btn up" data-dir="up" aria-label="Mover para cima">▲</button>
-          <button class="touch-btn left" data-dir="left" aria-label="Mover para esquerda">◀</button>
-          <button class="touch-btn down" data-dir="down" aria-label="Mover para baixo">▼</button>
-          <button class="touch-btn right" data-dir="right" aria-label="Mover para direita">▶</button>
-        </div>
-        <button id="action-btn" class="touch-btn action" aria-label="Interagir">E</button>
-      </div>
-      <button id="pause-btn" class="pause-fab" aria-label="Pausar">Ⅱ</button>
     </section>
   </main>
 
-  <div id="sound-caption" class="sound-caption" aria-live="polite"></div>
-  <div id="save-indicator" class="save-indicator" aria-live="polite">Salvando…</div>
+  <div id="build-badge">REBUILD V2 • PASSO 1</div>
 
-  <div id="orientation-hint" class="orientation-hint" role="dialog" aria-modal="true">
-    <div>
-      <b>Melhor em tela horizontal</b>
-      <p>Você também pode continuar na vertical.</p>
-      <button id="orientation-continue">Continuar</button>
-    </div>
-  </div>
-
-  <div id="ui-overlay" class="ui-overlay" aria-hidden="true">
-    <section id="ui-panel" class="ui-panel" role="dialog" aria-modal="true"></section>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/phaser@4.2.1/dist/phaser.min.js" onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/phaser/4.2.1/phaser.min.js';"></script>
-  <script type="module" src="./src/main.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/phaser@4.2.1/dist/phaser.min.js"
+    onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/phaser/4.2.1/phaser.min.js';">
+  </script>
+  <script type="module" src="./src-v2/main.js"></script>
 </body>
 </html>
