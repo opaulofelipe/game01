@@ -1,4 +1,4 @@
-import FoundationScene from "../scenes/FoundationScene.js";
+import MovementTestScene from "../scenes/MovementTestScene.js";
 
 export const gameConfig = {
   type: Phaser.AUTO,
@@ -21,5 +21,5 @@ export const gameConfig = {
     width: 960,
     height: 540
   },
-  scene: [FoundationScene]
+  scene: [MovementTestScene]
 };
