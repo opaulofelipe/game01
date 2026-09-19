@@ -10,12 +10,19 @@
 </head>
 <body>
   <main id="app">
-    <section id="game-shell" aria-label="A Casa — reconstrução v2">
+    <section id="game-shell" aria-label="A Casa — teste de movimentação">
       <div id="game"></div>
+
+      <div id="movement-controls" aria-label="Controles de movimento">
+        <button class="move-btn move-up" data-move="up" aria-label="Mover para cima">▲</button>
+        <button class="move-btn move-left" data-move="left" aria-label="Mover para a esquerda">◀</button>
+        <button class="move-btn move-down" data-move="down" aria-label="Mover para baixo">▼</button>
+        <button class="move-btn move-right" data-move="right" aria-label="Mover para a direita">▶</button>
+      </div>
     </section>
   </main>
 
-  <div id="build-badge">REBUILD V2 • PASSO 1</div>
+  <div id="build-badge">REBUILD V2 • PASSO 2</div>
 
   <script
     src="https://cdn.jsdelivr.net/npm/phaser@4.2.1/dist/phaser.min.js"
